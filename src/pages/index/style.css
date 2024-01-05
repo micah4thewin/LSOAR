@@ -1,0 +1,133 @@
+:root {
+  --nav-height: 80px; /* adjust this value to match the height of your nav */
+}
+
+span {
+  font-size: 12px;
+}
+
+html, body {
+  overflow-x: hidden;
+  height: auto;
+}
+
+/* Remove border around hamburger menu */
+#toggle-sidebar {
+  border: none;
+  background-color: transparent;
+}
+
+/* Optional: add hover effect for hamburger menu */
+#toggle-sidebar:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Set card width and height */
+.card {
+  height: auto;
+  width: 100%;
+}
+
+.slider {
+  width: 100%;
+  height: 1em;
+  cursor: pointer;
+}
+
+
+
+.navbar {
+  z-index: 1000;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.visible {
+  display: inline-block;
+}
+
+.hidden {
+  display: none;
+}
+
+
+.text-white {
+  color: #fff !important;
+}
+
+.rounded {
+  border-radius: 0.25rem !important;
+}
+
+.p-3 {
+  padding: 1rem !important;
+}
+
+.mt-4 {
+  margin-top: 1.5rem !important;
+}
+
+.mb-3 {
+  margin-bottom: 1rem !important;
+}
+
+.mt-3 {
+  margin-top: 1rem !important;
+}
+
+.fw-bold {
+  font-weight: 700 !important;
+}
+
+.ms-3 {
+  margin-left: 1rem !important;
+}
+
+.list-group-item {
+  background: none;
+}
+
+.container {
+  width: 100%;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+pre  {
+  border: 1px solid #ccc;
+}
+
+h2 span.text-muted,
+h3 span.text-secondary {
+  font-size: 0.8em;
+}
+
+.hero-banner {
+  min-height: 75vh;
+  background-image: url('../../assets/images/background-21.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#results {
+  min-height: 300px;
+}
+
+#description {
+  max-width: 300px;
+}
+
+.no-bullet {
+  list-style-type: none;
+  padding-left: 0;
+}

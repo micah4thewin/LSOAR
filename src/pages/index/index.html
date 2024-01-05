@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<link rel="canonical" href="https://www.micahlevason.com"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>L.S.O.A.R. by Micah Levason</title>
+  <meta name="description" content="Levason Searchable Ordered Article Resource: A comprehensive library of articles on various subjects.">
+  <meta name="keywords" content="L.S.O.A.R., articles, library, Micah Levason, math, science, computer science, web development, Oregon law, gardening, philosophy, history">
+
+  <!-- Open Graph Protocol -->
+  <meta property="og:title" content="L.S.O.A.R. by Micah Levason">
+  <meta property="og:description" content="A comprehensive library of articles on various subjects.">
+  <meta property="og:image" content="../../assets/images/ogimage.png">
+  <meta property="og:url" content="https://www.micahlevason.com/LSOAR">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="L.S.O.A.R. by Micah Levason">
+  <meta name="twitter:description" content="A comprehensive library of articles on various subjects.">
+  <meta name="twitter:image" content="../../assets/images/ogimage.png">
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://www.micahlevason.com/LSOAR" />
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "L.S.O.A.R. by Micah Levason",
+    "url": "https://www.micahlevason.com/LSOAR",
+    "description": "A comprehensive library of articles on various subjects.",
+    "author": {
+      "@type": "Person",
+      "name": "Micah Levason",
+      "url": "https://www.micahlevason.com",
+      "sameAs": [
+        "https://www.linkedin.com/in/micahlevason",
+        "https://www.facebook.com/officialmicahlevason",
+        "https://www.instagram.com/micahlevason",
+        "https://www.youtube.com/channel/UCrauVaZGcTfWukfsA-0ZJEA",
+        "https://www.pinterest.com/micahlevason/",
+        "https://about.me/micahlevason"
+      ]
+    }
+  }
+  </script>
+  <!-- Robots -->
+  <meta name="robots" content="index, follow" />
+
+  <!-- Google Tag Manager -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GRTN57V1VR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-GRTN57V1VR');
+  </script>
+</head>
+
+<body class="bg-light d-flex flex-column min-vh-100">
+
+  <!-- Main Content -->
+  <section class="hero-banner d-flex align-items-center justify-content-center bg-white">
+    <div class="row">
+      <div class="col">
+        <div class="content text-center bg-dark p-5 border border-2 border-white text-white mx-5" data-aos="fade-down" data-aos="zoom-in-up">
+          <h1 class="mb-4 text-center display-1 fw-bolder text-white" data-aos="fade-down">L.S.O.A.R.</h1>
+             <p class="mb-3 lead mx-auto" data-aos="fade-left">Browse concise articles on diverse topics with a uniform structure.</p>
+          <form id="searchForm">
+            <div class="mb-3 text-start"> <!-- Added text-start here -->
+              <label for="searchInput" class="form-label text-center w-100">Search by topic:</label>
+              <input type="text" id="searchInput" class="form-control rounded-pill url-keywords w-75 mx-auto" placeholder="Search..." required>
+            </div>
+            <div class="d-flex justify-content-center text-white">
+              <button type="button" id="searchButton" class="btn btn-outline-light rounded-pill px-4 analyze-button">
+                <i class="bi bi-search"></i> Search
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center" data-aos="fade-up">
+          <h1 class="display-4 fw-bolder text-light mb-5">
+            <i class="bi bi-search"></i> What is it?
+          </h1>
+          <p class="lead fs-6">
+            <i class="bi bi-bookmark-check-fill  lead"></i> L.S.O.A.R. (Levason's Searchable Ordered Article Resource) is powered by Lunr.js and offers a wide range of searchable articles.
+          </p>
+          <p data-aos="fade-up" class="text-white fst-italic lead fs-6">
+            <small>
+              <i class="bi bi-exclamation-diamond-fill"></i> <strong class="fw-bolder">Disclaimer:</strong> Articles may contain errors or omissions.
+            </small>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container my-5" id="results">
+    <p class="mx-auto display-7 fw-bolder text-center text-secondary text-uppercase text-muted my-5">Your articles will appear here.</p>
+    <p class="mx-auto fw-normal text-secondary text-center text-muted lead my-5">This resource offers a wide range of topics through concise, easy-to-digest articles that are uniformly formatted for optimized learning.</p>
+  </div>
+
+  <div class="container my-5">
+    <h1 id="article-title" class="display-4 mb-4"></h1>
+    <div id="article" class="text-wrap"></div>
+  </div>
+</body>
+
+
+
+</html>
